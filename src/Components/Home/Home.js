@@ -5,17 +5,24 @@ import home from './Home.css';
 
 const Home = () => {
     const topics = useLoaderData([]);
-   
-    return (
-        <div className='home'>
 
-            {
-                topics.data.map(topic => <Topic
-                    key={topic.id}
-                    topic={topic}
-                    
-                ></Topic>)
-            }
+    return (
+        <div >
+            <div>
+                <h1>Test what you know!!!!!</h1>
+                <p>Taking short Quiz is very helpful. It saves time and sharpen our knowledge also we can learn with fun</p>
+            </div>
+
+            <div className='home'>
+                {
+                    topics.data.map(topic => <Topic
+                        key={topic.id}
+                        topic={topic}
+
+                    ></Topic>)
+                }
+
+            </div>
         </div>
     );
 };
