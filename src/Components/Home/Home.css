@@ -10,4 +10,11 @@
 
     height: 350px;
 
+
+}
+
+.headline:hover {
+
+    color: orangered;
+    font-weight: 1000;
 }

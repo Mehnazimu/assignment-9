@@ -1,0 +1,23 @@
+.b-div {
+    background-color: aliceblue;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.blog div {
+    border: 1px solid darkgrey;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.blog div:hover {
+    background-color: aquamarine;
+
+}

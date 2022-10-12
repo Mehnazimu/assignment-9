@@ -8,8 +8,8 @@ const Home = () => {
 
     return (
         <div >
-            <div>
-                <h1>Test what you know!!!!!</h1>
+            <div >
+                <h1 className='headline'>Test what you know!!!!!</h1>
                 <p>Taking short Quiz is very helpful. It saves time and sharpen our knowledge also we can learn with fun</p>
             </div>
 
