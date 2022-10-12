@@ -1,0 +1,42 @@
+.topic-div:hover {
+    color: darkgray;
+}
+
+.topic {
+    border: 1px solid black;
+    margin: 10px;
+    height: 290px;
+    width: 250px;
+    background-color: azure;
+}
+
+
+.topic img {
+    height: 180px;
+    background-color: black;
+}
+
+.topic img:hover {
+    height: 190px;
+}
+
+.btn {
+    background-color: darkturquoise;
+    border-radius: 4px;
+    border: 1px solid blueviolet;
+    width: 120px;
+    padding: 5px;
+
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}

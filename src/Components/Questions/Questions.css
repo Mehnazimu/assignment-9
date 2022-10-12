@@ -1,0 +1,25 @@
+.q-div {
+    border: 1px solid burlywood;
+    margin: 20px;
+    padding: 20px;
+    width: 540px;
+    background-color: aliceblue;
+    margin-left: 30%;
+    border-radius: 5px;
+
+}
+
+.q-div:hover {
+    background-color: azure;
+}
+
+.eye-btn {
+    border: none;
+    background-color: whitesmoke;
+    margin-left: 500px;
+}
+
+.eye-btn:hover {
+    color: blue;
+
+}

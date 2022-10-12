@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+
+    align-items: center;
+    background-color: lightblue;
+
+}
+
+.header {
+    margin-left: 80px;
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.header a:hover {
+    color: orangered;
+}
+
+.headline {
+    margin-left: 25px;
+    font-weight: bolder;
+
+}
+
+.headline:hover {
+    color: darkgoldenrod;
+}

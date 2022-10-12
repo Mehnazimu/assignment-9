@@ -1,0 +1,11 @@
+.options {
+    display: flex;
+    border: 1px solid grey;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+
+.options:hover {
+    background-color: rgb(34, 196, 218);
+    color: black;
+}

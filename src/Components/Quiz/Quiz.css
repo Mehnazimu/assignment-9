@@ -1,0 +1,6 @@
+.quiz-div {
+    display: grid;
+    align-items: center;
+
+    background-color: whitesmoke;
+}
